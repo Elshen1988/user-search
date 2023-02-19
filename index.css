@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heder{
+    background-color: rgb(80, 80, 227);
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   width: 300px;
+   height: 150px;
+}
+input{
+   background-color: rgb(184, 184, 243);;
+   margin-left: 60px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+color: white;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.futer{
+    margin-top: 0;
+    background-color: rgb(232, 231, 231);
+    width: 300px;
+   height: 350px;
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   overflow-y:scroll;
+   overflow-x: hidden;
+}
